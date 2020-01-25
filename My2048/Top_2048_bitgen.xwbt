@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Cassie\Desktop\My2048\Top_2048.ncd
+OUTFILE=C:\Users\Cassie\Desktop\My2048\Top_2048.bit
+FAMILY=Kintex7
+PART=xc7k160t-1ffg676
+WORKINGDIR=C:\Users\Cassie\Desktop\My2048
+LICENSE=WebPack
+USER_INFO=__0_0_0

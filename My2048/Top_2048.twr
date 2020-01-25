@@ -1,0 +1,116 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 1
+-n 3 -fastpaths -xml Top_2048.twx Top_2048.ncd -o Top_2048.twr Top_2048.pcf
+-ucf K7.ucf
+
+Design file:              Top_2048.ncd
+Physical constraint file: Top_2048.pcf
+Device,package,speed:     xc7k160t,ffg676,C,-1 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock btn<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+btn<0>         |         |         |    0.265|    0.782|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock btn<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+btn<0>         |   -1.934|   -1.934|         |         |
+btn<1>         |   -2.008|   -2.008|    4.696|    4.696|
+btn<2>         |         |         |    4.243|    4.243|
+btn<3>         |         |         |    3.214|    3.214|
+clk            |         |         |   32.004|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock btn<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+btn<0>         |         |         |   -0.598|   -0.598|
+btn<1>         |         |         |    4.705|    4.705|
+btn<2>         |         |         |    4.372|    4.372|
+btn<3>         |         |         |    2.671|    2.671|
+clk            |         |         |   32.004|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock btn<3>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+btn<0>         |         |         |   -0.258|   -0.258|
+btn<1>         |         |         |    4.532|    4.532|
+btn<2>         |         |         |    4.520|    4.520|
+btn<3>         |         |         |    2.347|    2.347|
+clk            |         |         |   32.004|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock btn<4>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+btn<0>         |         |         |   -0.469|   -0.469|
+btn<1>         |    0.550|   24.952|         |         |
+btn<2>         |    0.709|   24.952|         |         |
+btn<3>         |    0.298|   24.952|         |         |
+btn<4>         |    1.798|   -0.391|         |         |
+clk            |   28.775|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+btn<0>         |    2.629|    3.955|         |         |
+btn<1>         |    6.413|   26.795|         |         |
+btn<2>         |         |   26.795|         |         |
+btn<3>         |         |   26.795|         |         |
+btn<4>         |    5.318|    2.755|         |         |
+clk            |    1.953|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Tue Jan 07 17:16:51 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 5196 MB
+
+
+

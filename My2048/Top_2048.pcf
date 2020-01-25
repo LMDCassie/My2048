@@ -1,0 +1,33 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Jan 07 17:14:22 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "btn<0>" LOCATE = SITE "AF10" LEVEL 1;
+PIN btn<0>_pin<0> = BEL "btn<0>" PINNAME PAD;
+PIN "btn<0>_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "btn<1>" LOCATE = SITE "AF13" LEVEL 1;
+PIN btn<1>_pin<0> = BEL "btn<1>" PINNAME PAD;
+PIN "btn<1>_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "btn<2>" LOCATE = SITE "AF8" LEVEL 1;
+COMP "btn<3>" LOCATE = SITE "AE13" LEVEL 1;
+COMP "btn<4>" LOCATE = SITE "AE8" LEVEL 1;
+PIN btn<4>_pin<0> = BEL "btn<4>" PINNAME PAD;
+PIN "btn<4>_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "vgaGreen<3>" LOCATE = SITE "T25" LEVEL 1;
+COMP "vgaGreen<1>" LOCATE = SITE "R23" LEVEL 1;
+COMP "vgaGreen<2>" LOCATE = SITE "T24" LEVEL 1;
+COMP "vgaGreen<0>" LOCATE = SITE "R22" LEVEL 1;
+COMP "vgaBlue<2>" LOCATE = SITE "T22" LEVEL 1;
+COMP "vgaBlue<1>" LOCATE = SITE "R20" LEVEL 1;
+COMP "Vsync" LOCATE = SITE "M21" LEVEL 1;
+COMP "vgaBlue<3>" LOCATE = SITE "T23" LEVEL 1;
+COMP "vgaBlue<0>" LOCATE = SITE "T20" LEVEL 1;
+COMP "vgaRed<2>" LOCATE = SITE "R21" LEVEL 1;
+COMP "vgaRed<1>" LOCATE = SITE "N22" LEVEL 1;
+COMP "vgaRed<3>" LOCATE = SITE "P21" LEVEL 1;
+COMP "vgaRed<0>" LOCATE = SITE "N21" LEVEL 1;
+COMP "clk" LOCATE = SITE "AC18" LEVEL 1;
+COMP "Hsync" LOCATE = SITE "M22" LEVEL 1;
+SCHEMATIC END;
+

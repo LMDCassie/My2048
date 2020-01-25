@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "C:/Users/Cassie/Desktop/Initial/LCDF_2048 (2)/My2048/Top_2048.xst" -ofn "C:/Users/Cassie/Desktop/Initial/LCDF_2048 (2)/My2048/Top_2048.syr" 
+xst -intstyle ise -ifn "C:/Users/Cassie/Desktop/Initial/LCDF_2048 (2)/My2048/Top_2048.xst" -ofn "C:/Users/Cassie/Desktop/Initial/LCDF_2048 (2)/My2048/Top_2048.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 "Top_2048.ngc" Top_2048.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_2048_map.ncd Top_2048.ngd Top_2048.pcf 
+par -w -intstyle ise -ol high -mt off Top_2048_map.ncd Top_2048.ncd Top_2048.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Top_2048.twx Top_2048.ncd -o Top_2048.twr Top_2048.pcf -ucf K7.ucf 
+bitgen -intstyle ise -f Top_2048.ut Top_2048.ncd 
+xst -intstyle ise -ifn "C:/Users/Cassie/Desktop/My2048/Top_2048.xst" -ofn "C:/Users/Cassie/Desktop/My2048/Top_2048.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 Top_2048.ngc Top_2048.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_2048_map.ncd Top_2048.ngd Top_2048.pcf 
+par -w -intstyle ise -ol high -mt off Top_2048_map.ncd Top_2048.ncd Top_2048.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Top_2048.twx Top_2048.ncd -o Top_2048.twr Top_2048.pcf -ucf K7.ucf 
+bitgen -intstyle ise -f Top_2048.ut Top_2048.ncd 
